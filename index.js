@@ -4,7 +4,6 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 
 const app = express();
-const PORT = 3000;
 const JWT_SECRET = 'contraseña_segura_pruebas'; 
 
 app.use(express.json());
